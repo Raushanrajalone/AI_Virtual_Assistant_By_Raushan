@@ -95,9 +95,9 @@ function tekeCommand(tock){
         speak("opening facebook...")
         window.open("https://www.facebook.com/")
     }
-         else if(tock.includes("open WhatAspp")){
-        speak("opening WhatAspp...")
-        window.open("WhatAspp://")
+         else if(tock.includes("open whataspp")){
+        speak("opening whataspp...")
+        window.open("whataspp://")
     }
     else if(tock.includes("time")){
         let time =new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
@@ -113,5 +113,6 @@ function tekeCommand(tock){
     window.open(`https://www.google.com/search?q=${tock.replace("thara", "").replace("tara", "")}`, "_blank");
 }
 }
+
 
 
